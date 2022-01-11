@@ -1,6 +1,6 @@
 # World-News
 Responsive Web Design with Bootstrap
-##Page 1 is mine main page and should have information about your news categories. 
+## Page 1 is mine main page and should have information about your news categories. 
 - The latest news can be included in each category and it should have text box and button for search (Search).
 - If the user clicks the “News, Sport, Travel, Culture” title, then the relevant tab must be open.
 - If the user moves the mouse over the image, then the image must be zoom.
@@ -9,29 +9,29 @@ Responsive Web Design with Bootstrap
 HTML to code it).
 ![image](https://user-images.githubusercontent.com/42895382/148872024-6b093494-f0c5-4675-bef9-7a2b7319c281.png)
 
-##Page 2 contains news.
+## Page 2 contains news.
 - If the user moves the mouse over the headline, then the headline must be zoom (see Figure 4).
 - If the user moves the mouser over the image, then the must not be transparent but when the mouse pointer moves away from the image, the image will be transparent again.
 
 ![image](https://user-images.githubusercontent.com/42895382/148872166-8c296f23-35b9-487a-bf6d-d0a83a8c592e.png)
 
-##Page 3 contains information about sports (it can be given, e.g., with some photos, videos, audio or text) and links to some useful websites, and these sites must be clickable.
+## Page 3 contains information about sports (it can be given, e.g., with some photos, videos, audio or text) and links to some useful websites, and these sites must be clickable.
 - When the user clicks the video, it should start playing (Note: Do not download or put any video file into your homework folder. Import them directly by giving the exact link of the web page - should be an external link, not local -, or you may use YouTube videos. However, the video file must be rendered on the same page (services.html), not in a new window).
 
 ![image](https://user-images.githubusercontent.com/42895382/148872375-36f4f7ba-2d31-443d-ab28-a5edf1e17cd5.png)
 
-##Page 4 contains information about some places.
+## Page 4 contains information about some places.
 
 ![image](https://user-images.githubusercontent.com/42895382/148872481-a482cd8e-be8c-41fe-8bda-c31931d31a8a.png)
 
-##Page 5 contains information about some historical places, arts, films etc..
+## Page 5 contains information about some historical places, arts, films etc..
 
 ![image](https://user-images.githubusercontent.com/42895382/148872611-8bb44dd1-2c0c-4345-abd5-10e12aa3acc1.png)
 ![image](https://user-images.githubusercontent.com/42895382/148872646-9644625a-dba1-4ed9-8acb-53ee43447461.png)
 ![image](https://user-images.githubusercontent.com/42895382/148872677-8c47a15f-c49b-4829-ae80-c0643cb6455c.png)
 ![image](https://user-images.githubusercontent.com/42895382/148872718-31bb14c0-183f-47c1-9840-01d18e95b385.png)
 
-##Page 6 consist of two sub-tabs (Contact me, About me) . Page1 (Contact me) is going to be the page that your readers will be able to ask questions to you via a form or an e-mail . Hence, contains contact information of you or your news site and Page2 (About me) contains information about authors. You are encouraged to names these pages as “contactme.html”, “aboutme.html”.
+## Page 6 consist of two sub-tabs (Contact me, About me) . Page1 (Contact me) is going to be the page that your readers will be able to ask questions to you via a form or an e-mail . Hence, contains contact information of you or your news site and Page2 (About me) contains information about authors. You are encouraged to names these pages as “contactme.html”, “aboutme.html”.
 - You need to add an e-mail address and any other contact info (such as e-mail, and social media accounts - Facebook, Twitter, Instagram - etc., which all need to be clickable).
 - You need to add a home icon. When the user clicks it, “index.html” must be
 opened.
@@ -45,7 +45,7 @@ opened.
 
 ![image](https://user-images.githubusercontent.com/42895382/148873161-6397b5e1-93a6-4429-923f-af4a349afc6f.png)
 
-##Page 7 is going to be the page that your customers will be able to sign to your web
+## Page 7 is going to be the page that your customers will be able to sign to your web
 site via a login form. This form should get the following information from the user:
 - If the user clicks the “Sign In” button, then the “home.html“ must be re-rendered.
 - If the user clicks the “Register Now”, then “register.html” must be opened.
