@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="keywords" content="news,sport,culture,travel ">
+    <meta name="description" content="breaking news">
+    <meta name="viewport" content="width=device-width" initial-scale=1>
+    <link href="/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            background-image: url(../img/bgworld.jpg);
+            background-size: 50%;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_Collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div id="navbar_Collapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="news.html" class="nav-link">NEWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sport.html" class="nav-link">SPORT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="travel.html" class="nav-link">TRAVEL</a>
+                    </li>
+                    <li class="nav-item  dropdown ">
+                        <a href="culture.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CULTURE</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="historicalPlace.html">Historical Place</a>
+                            <a class="dropdown-item" href="arts.html">Arts</a>
+                            <a class="dropdown-item" href="films.html">Films</a>
+                            <a class="dropdown-item" href="books.html">Books</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item  dropdown ">
+                        <a href="more.html" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MORE</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="aboutme.html">About Me</a>
+                            <a class="dropdown-item" href="contactme.html">Contact Me</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="signin.html" class="nav-link">SIGN IN</a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+    <div>
+        <header class="jumbotron text-center">
+            <h1>WORLD NEWS</h1>
+        </header>
+    </div>
+    <content>
+
+        <div class="row">
+
+            <section class=" col-md-6 bg-light">
+                <p class="h3"><a href="news.html" class="text-secondary">News</a></p>
+                <img class="zoom " src="../img/korona.jpg">
+                <p>
+                    Scientists at a university research centre in Turkey claim they have developed an ultra-rapid coronavirus test with <span id="dots">...</span><span id="more"><strong>A99% accuracy that can return results within 10 seconds </strong> - all without needing to take a nasal swab. The Diagnovir, developed by researchers at Bilkent University, is a diagnostic kit said to use nanotechnology to detect COVID-19 in a patient.</span>
+                </p>
+                <button onclick="myFunction()" id="myBtn" class="bg-light">Read more</button>
+
+            </section>
+
+
+            <section class="col-md-6 bg-light">
+                <h3><a href="sport.html" class="text-secondary">Sport</a></h3>
+                <img class="zoom" src="../img/joel_embiid.jpg" alt="Joel Embiid">
+                <p>
+                    <b>Joel Embiid scored 36 points and added 14 rebounds as his Philadelphia 76ers side defeated the Los Angeles Clippers 106-103. The 76ers extended their lead at the top of the Eastern Conference while defeat ended the Clippers' seven-game winning streak.</b>
+                </p>
+            </section>
+        </div>
+        <div class="row">
+            <section class="col-md-6 bg-light">
+                <h3><a href="travel.html" class="text-secondary">Travel</a></h3>
+                <img class="zoom" src="../img/venice.jpg" alt="Venice, Italy">
+                <p>
+                    The romantic city of Venice is located in the Veneto region of Italy one of the northernmost states. This ancient and historically important city was originally built on 100 small islands in the Adriatic Sea. Instead or roads, Venice relies on a series of waterways and canals.
+                </p>
+
+            </section>
+
+            <section class="col-md-6 bg-light">
+                <h3><a href="culture.html" class="text-secondary">Culture</a></h3>
+                <img class="zoom" src="../img/culture.png">
+            </section>
+        </div>
+
+
+    </content>
+
+    <footer>
+        <div class="footer bg-dark">
+            <p>
+                Author:Sinem Türkçü <br>
+                <a href="sinemturkcu@gmail.com">sinemturkcu@gmail.com</a><br>
+                Copyright 2021-2030 by Refsnes Data. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
